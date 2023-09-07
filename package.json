@@ -1,0 +1,19 @@
+{
+  "name": "entregaoneliafermani-backend",
+  "version": "1.0.0",
+  "description": "proyecto backend ",
+  "main": "ProductManager.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oneliafermani/EntregaOneliaFermani-Backend.git"
+  },
+  "author": "onelia fermani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oneliafermani/EntregaOneliaFermani-Backend/issues"
+  },
+  "homepage": "https://github.com/oneliafermani/EntregaOneliaFermani-Backend#readme"
+}
