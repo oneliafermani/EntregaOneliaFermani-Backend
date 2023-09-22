@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-class ProductManager {
+export default class ProductManager {
   constructor(filePath) {
     this.filePath = filePath;
     this.loadProducts();
@@ -78,7 +78,7 @@ class ProductManager {
     updatedProduct.id = this.products[index].id;
 
     // Actualizar el producto en la lista
-    this.products[index] = updatedProduct;
+    this.products[index] = {...this.products[index], ...updatedProduct, id: id};
 
     // Guardar los productos en el archivo
     this.saveProducts();
@@ -147,3 +147,5 @@ try {
 } catch (error) {
   console.error(error.message);
 }
+
+

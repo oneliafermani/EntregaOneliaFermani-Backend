@@ -1,9 +1,11 @@
 {
   "name": "entregaoneliafermani-backend",
   "version": "1.0.0",
-  "description": "proyecto backend ",
+  "description": "proyecto backend",
+  "type": "module",
   "main": "ProductManager.js",
   "scripts": {
+    "start": "nodemon server.js", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/oneliafermani/EntregaOneliaFermani-Backend/issues"
   },
-  "homepage": "https://github.com/oneliafermani/EntregaOneliaFermani-Backend#readme"
+  "homepage": "https://github.com/oneliafermani/EntregaOneliaFermani-Backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
