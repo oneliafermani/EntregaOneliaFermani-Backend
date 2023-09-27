@@ -1,7 +1,7 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs/promises';
+import path from 'path';
 
-export default class ProductManager {
+ class ProductManager {
   constructor(filePath) {
     this.filePath = filePath;
     this.loadProducts();
